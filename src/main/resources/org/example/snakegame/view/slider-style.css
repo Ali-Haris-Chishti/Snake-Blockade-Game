@@ -1,0 +1,21 @@
+/* Styling the overall slider */
+.slider {
+    -fx-pref-height: 40;    /* Increases the height of the slider */
+}
+
+/* Styling the track of the slider */
+.slider .track {
+    -fx-background-color: rgb(120, 189, 62);   /* Change the track color to green */
+}
+
+/* Styling the thumb (the draggable handle) of the slider */
+.slider .thumb {
+    -fx-background-color: rgb(247, 247, 120);   /* Change the thumb color to red */
+    -fx-border-color: rgb(147, 147, 20);       /* Add an orange border */
+    -fx-border-radius: 5;            /* Add rounded corners to the thumb */
+}
+
+/* Optionally, style the tick marks (if enabled on the slider) */
+.slider .tick-mark {
+    -fx-stroke: #000000;             /* Change tick mark color to black */
+}
